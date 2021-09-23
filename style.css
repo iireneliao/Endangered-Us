@@ -1,0 +1,602 @@
+.logo-title {
+	display: flex;
+	justify-content: center;
+	background-color: #36466E;
+	padding:30px;
+}
+
+body {
+	margin:0px;
+	  background-color:#f5efe9;
+
+}
+
+.logo {
+  height:100px;
+	width: 50px;
+	object-fit: cover;
+	margin-top: 15px;
+}
+
+.title {
+	display: inline;
+	font-family: 'Bebas Neue';
+	font-size: 100px;
+	margin:0px;
+	text-align: center;
+	margin-left: 50px;
+	color: white;
+	margin-top: 10px;
+}
+
+.nav-bar {
+  display: block;
+  position: relative;
+}
+
+.nav-bar-options {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #102354;
+	margin-bottom:60px;
+	margin-top:0px;
+}
+
+.option {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #102354;
+  font-size: 15px;
+  align-content: center;
+}
+
+.option:hover {
+  background-color: #102354b9;
+  cursor: pointer;
+}
+
+.home-images {
+	display: flex;
+	justify-content: center;
+}
+.image1, .image2, .image3, .image4, .image5 {
+	object-fit: cover;
+	height:500px;
+	width: 250px;
+}
+
+.mission-titlee {
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	text-align: center;
+	color: #125736;
+	margin-bottom:0px;
+}
+
+.mission-text {
+	font-family: 'Times New Roman', Times, serif;
+	font-size:20px;
+	text-align: center;
+	margin-left: 135px;
+	margin-right: 135px; 
+}
+
+.video-titlee {
+	font-family: 'Bebas Neue';
+	font-size: 55px;
+	text-align: center;
+	color: #125736;
+	margin-bottom:20px;
+}
+
+.video-video {
+	display: flex;
+	justify-content: center;
+}
+
+.video-descc {
+	text-align: center;
+	color: black;
+  font-size:20px;
+}
+
+.aboutustitle {
+	font-family: 'Bebas Neue';
+	font-size: 55px;
+	text-align: center;
+	color: #125736;
+	margin-bottom:20px;	
+}
+
+.aboutirene, .aboutannalize, .aboutflora, .aboutsarah {
+	float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+.ireneimage, .annalizeimage, .floraimage, .sarahimage {
+	object-fit: cover;
+	height: 400px;
+	width: 400px;
+	display: block;
+}
+
+.irenename, .annalizename, .floraname, .sarahname {
+	font-family: 'Bebas Neue';
+	color: #125736;
+	font-size: 35px;
+  text-align: left;
+}
+
+.irenedesc, .annalizedesc, .floradesc, .sarahdesc {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	margin-top:0px;
+}
+
+.row1::after, .row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row1, .row2 {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.kwktitle {
+	font-family: 'Bebas Neue';
+	font-size: 55px;
+	text-align: center;
+	color: #125736;
+	margin-bottom: 10px;
+}
+
+.kwkdesc {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	margin-top:0px;
+	margin-left: 180px;
+	margin-right: 180px;
+	text-align: center;
+}
+
+.video-descc {
+  color: #125736;
+}
+
+.resources {
+  font-family: 'Bebas Neue';
+  color: #125736;
+  text-align:center;
+  font-size: 50px;
+}
+
+.help {
+  font-family: 'Bebas Neue';
+  color: #125736;
+  text-align:center;
+  font-size: 50px;
+	margin-bottom:5px;
+}
+
+.petitions {
+  font-family: 'Bebas Neue';
+  color: #125736;
+  text-align:center;
+  font-size: 50px;
+}
+
+.diet {
+  font-family: 'Bebas Neue';
+  color: #125736;
+  text-align:center;
+  font-size: 50px;
+	margin-bottom: 5px;
+}
+
+.ways-to-help {
+	margin-left: 40px;
+}
+
+.ways {
+  font-family: 'Times New Roman', Times, serif;
+	font-size:22px;
+  margin-top: 10px;
+  margin-left:15px;
+  padding-top: 15px;
+  text-shadow: 1px 1px green;
+}
+
+.AAchart {
+  height: 600px;
+  width: 600px;
+  object-fit: cover;
+}
+
+.Progress2 {
+  height: 400px;
+  width: 550px;
+  object-fit: cover;
+}
+
+.links {
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: #125736;
+font-size: 25px;
+padding-top:10px;
+margin-left:20px;
+margin-bottom:5px;
+}
+
+.ed-links {
+font-family: 'Times New Roman', Times, serif;
+display:flex;
+flex-direction: column;
+font-size:20px;
+padding-top: 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+padding-right: 20px;
+}
+
+.both{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.url-links {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-top:40px;
+  margin-top:20px;
+}
+
+.links-2 {
+font-family: 'Times New Roman', Times, serif;
+display:flex;
+flex-direction: column;
+font-size: 21px;
+padding-top:15px;
+padding-left:20px;
+margin-left:20px;
+margin-top:5px;
+
+}
+
+.petitions-li {
+font-family:'Times New Roman', Times, serif;
+display:flex;
+flex-direction: column;
+font-size:20px;
+padding-top: 5px;
+padding-left: 10px;
+padding-bottom: 20px;
+padding-right: 20px;
+
+}
+
+.pChart {
+  height: 400px;
+  width: 450px;
+  object-fit: cover;
+ 
+}
+
+.Pandas {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.hwChart {
+  height: 400px;
+  width: 650px;
+  object-fit: cover;
+}
+
+.humpbackWhales {
+  height: 400px;
+  width: 525px;
+  object-fit: cover;
+}
+
+.evep {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.wildflower2 {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.pandaimages {
+	display: flex;
+	justify-content: center;
+}
+
+.AAimages {
+	display: flex;
+	justify-content: center;
+}
+
+.HHimages {
+	display: flex;
+	justify-content: center;
+}
+
+.wildflowerImages {
+	display: flex;
+	justify-content: center;
+}
+
+.GiantPandas {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	text-align: center;
+	color: #125736;
+	margin-bottom: 0px;
+}
+
+.AA {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	text-align: center;
+	color: #125736;
+	margin-bottom: 0px;
+
+}
+
+.HH {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	text-align: center;
+	color: #125736;
+	margin-bottom: 0px;
+}
+
+.wildFlower {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	text-align: center;
+	color: #125736;
+	margin-bottom: 0px;
+}
+
+.ExploreMore {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	text-align: center;
+	color: #125736;
+	margin-bottom: 0px;
+}
+
+.video-1-1 {
+	display: flex;
+	justify-content: center;
+	color: #125736;
+}
+
+.description {
+text-align:center;
+font-family:'Times New Roman', Times, serif;
+color: black;
+font-size: 17px;
+}
+
+.aachart {
+  justify-content: space-between;
+	width: 550px;
+	height: 400px;
+}
+
+.extinctiontitle {
+	font-family: 'Bebas Neue';
+	color: #125736;
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+
+.q1, .q2, .q3, .q4 {
+	font-family: 'Bebas Neue';
+	color: #102354;
+	font-size: 35px;
+  text-align: left;
+	margin-bottom:5px;
+}
+
+.button {
+	background-color: #006132a9;
+	border: 2px solid #233561;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+.image-cs {
+height:700px;
+width:1100px;
+object-fit:cover;
+}
+
+.results {
+	font-family: 'Times New Roman';
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.button:hover {
+	background-color: #4d70ca;
+	border: 2px solid #125736;
+	color: white;
+	cursor: pointer;
+}
+
+input {
+  display: inline-block;
+}
+
+
+.first{
+  text-align: center;
+  border-style: groove;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+}
+
+.second{
+  text-align: center;
+  border-style: groove;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+}
+
+.third{
+  text-align: center;
+  border-style: groove;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+}
+
+.fourth{
+  text-align: center;
+  border-style: groove;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+}
+
+.fifth{
+  text-align: center;
+  text-size: 30px;
+  border-style: groove;
+  padding: 15px;
+  background:#FFFAF0;
+  background-clip: padding-box;
+}
+
+.q1, .q2, .q3, .q4, {
+	margin-left: 40px;
+}
+
+.extinctiontitle {
+	margin-left: 40px;
+}
+
+.q1a1,.q1a2,.q1a3,.q1a4,.q2a1,.q2a2,.q2a3,.q2a4,.q3a1,.q3a2,.q3a3,.q3a4,.q4a1,.q4a2,.q4a3,.q4a4 {
+	margin-left: 30px;
+}
+
+.sucessLink{
+  display: flex;
+	justify-content: center;
+  font-family: monospace ;
+  color: #000000;
+  font-size: 18px;
+}
+
+.animalsLink {
+  display: flex;
+	justify-content: center;
+  font-family: monospace ;
+  color: #000000;
+  font-size: 18px;
+	margin-bottom:30px;
+}
+
+.quiznum {
+	list-style:none;
+} 
+
+.question0,.question1,.question2,.question3 {
+	margin-left: 40px;
+}
+
+
+
+.followLinks{
+  display: flex;
+	justify-content: center;
+  font-family: "Bebas Neue" ;
+  color: #000000;
+  font-size: 30px;
+	margin-bottom:5px;
+}
+
+.quizbutton {
+	font-family: "Bebas Neue";
+	background-color: #102354;
+
+}
+
+.finalMap{
+  display:flex;
+  justify-content: center;
+}
+
+.animalsMap {
+	height: 350px;
+  width: 650px;
+  object-fit: cover;
+}
+
+.im-planet {
+	display: block;
+}
+
+.pets {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.pet {
+	margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.first{
+  font-size: 22px;
+}
+
+.second{
+  font-size: 22px;
+}
+
+.third{
+  font-size: 22px;
+}
+
+.fourth{
+  font-size: 22px;
+}
+.fifth{
+  font-size: 22px;
+}
